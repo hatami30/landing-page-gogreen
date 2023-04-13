@@ -1,8 +1,3 @@
-// TOGGLE FUNCTION
-function myFunction(x) {
-    x.classList.toggle("change");
-}
-
 // HEADER FUNCTION
 const header = document.querySelector("header");
 
