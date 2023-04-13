@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Go Green</title>
+</head>
+
+<body>
+    <!-- Header Content -->
+    <header>
+        <!-- Logo -->
+        <a href="#" class="logo">Go Green</a>
+        <!-- Toggle -->
+        <div id="menu-icon" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <!-- Menu Navbar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#kategori">Kategori</a></li>
+                <li><a href="#artikel">Artikel</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h1>Go Green, <br> Selamatkan <br> Bumi Kita</h1>
+                <p id="description">Go Green adalah sebuah platform digital untuk membuat bumi kita kembali sehat</p>
+                <a href="https://skilvul.com/" class="home-btn">Ayo Ikutan</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="tentang">
+            <div class="text">
+                <h2>Tentang Kami</h2>
+            </div>
+
+            <div class="container-box">
+                <img src="https://i.ibb.co/19DTctj/reduce-plastic-bag-campaign.png">
+                <p>Go Green adalah sebuah platform dalam bentuk website yang membahas tips mengenai cara selamatkan bumi
+                    dari kerusakan lingkungan akibat kurangnya edukasi mengenai sampah. Jika ada pertanyaan seputar
+                    website ini silahkan hubungi kami via tombol
+                    <a href="#kontak" class="about-btn">Kontak Kami</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Category Section -->
+        <section class="category" id="kategori">
+            <div class="text">
+                <h2>Kategori</h2>
+            </div>
+
+            <div class="card-grid">
+                <a class="card"
+                    href="https://dlh.blitarkab.go.id/sampah-organik-menjadi-kerajinan/#:~:text=Sampah%20organik%20basah%20contohnya%20adalah,busuk%2C%20kulit%20bawang%20dan%20sejenisnya.&text=Sampah%20organik%20kering%20adalah%20sampah,kayu%20dan%20daun%20%E2%80%93%20daun%20kering.">
+                    <div class="card__background"
+                        style="background-image: url(https://images.unsplash.com/photo-1621944122713-9691bf6947bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG9yZ2FuaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60)">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__category">Organik</p>
+                        <h3 class="card__heading">Contoh Sampah Organik</h3>
+                    </div>
+                </a>
+                <a class="card"
+                    href="https://dlh.brebeskab.go.id/manfaat-sampah-organik-dan-non-organik/#:~:text=Sampah%20anorganik%20adalah%20sampah%20yang,kaca%2C%20karet%2C%20dan%20kaleng.">
+                    <div class="card__background"
+                        style="background-image: url(https://images.unsplash.com/photo-1618885472179-5e474019f2a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJvdHRsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__category">An-Organik</p>
+                        <h3 class="card__heading">Contoh Sampah An-Organik</h3>
+                    </div>
+                </a>
+                <a class="card"
+                    href="https://dlhk.jogjaprov.go.id/mengenal-b3-dan-limbah-b3#:~:text=Beberapa%20jenis%20B3%20yang%20mudah,Hidroksida%2C%20termasuk%20juga%20gas%20Nitrogen.">
+                    <div class="card__background"
+                        style="background-image: url(https://images.unsplash.com/photo-1555699875-5773b06e8ee2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGFuZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60)">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__category">B3</p>
+                        <h3 class="card__heading">Contoh Sampah B3</h3>
+                    </div>
+                </a>
+                <a class="card"
+                    href="https://dinkes.jogjaprov.go.id/berita/detail/sampah-plastik-bbm-merubah-sampah-plastik--bahan-bakar#:~:text=Sampah%20jenis%20ini%20pada%20tingkat,(Gelbert%20dkk%2C%201996).">
+                    <div class="card__background"
+                        style="background-image: url(https://images.unsplash.com/photo-1586041828039-b8d193d6d1dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBsYXN0aWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60)">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__category">Plastik</p>
+                        <h3 class="card__heading">Contoh Sampah Plastik</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Article Section -->
+        <section class="artikel" id="artikel">
+            <div class="text">
+                <h2>Artikel</h2>
+            </div>
+
+            <div class="article">
+                <div class="card-article">
+                    <div class="card-header">
+                        <img src="https://images.unsplash.com/photo-1636549887186-232495930c54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Rubbish" />
+                    </div>
+                    <div class="card-body">
+                        <span class="tag tag-cyan">An-Organik</span>
+                        <a
+                            href="https://dlh.brebeskab.go.id/manfaat-sampah-organik-dan-non-organik/#:~:text=Sampah%20anorganik%20adalah%20sampah%20yang,kaca%2C%20karet%2C%20dan%20kaleng.">
+                            <h4>
+                                Manfaat dari Sampah An-Organik di Sekitar Kita
+                            </h4>
+                        </a>
+                        <p>
+                            Memanfaatkan sampah organik dan anorganik dapat membantu mengurangi dampak negatif
+                            lingkungan serta memperoleh nilai tambah dari daur ulang...
+                        </p>
+                        <div class="user">
+                            <img src="https://i.ibb.co/cDq4c4w/hatami.png" alt="user" />
+                            <div class="user-info">
+                                <h5>Hatami</h5>
+                                <small>Article Post</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <div class="card-header">
+                        <img src="https://images.unsplash.com/photo-1606037150583-fb842a55bae7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                            alt="Rubbish" />
+                    </div>
+                    <div class="card-body">
+                        <span class="tag tag-cyan">Plastik</span>
+                        <a
+                            href="https://dinkes.jogjaprov.go.id/berita/detail/sampah-plastik-bbm-merubah-sampah-plastik--bahan-bakar#:~:text=Sampah%20jenis%20ini%20pada%20tingkat,(Gelbert%20dkk%2C%201996).">
+                            <h4>
+                                Cara Merubah Sampah Plastik Menjadi Bahan Bakar
+                            </h4>
+                        </a>
+                        <p>
+                            Merubah sampah plastik menjadi bahan bakar dapat dilakukan dengan melalui proses pirolisis
+                            dengan suhu tinggi dan tanpa oksigen...
+                        </p>
+                        <div class="user">
+                            <img src="https://i.ibb.co/cDq4c4w/hatami.png" alt="user" />
+                            <div class="user-info">
+                                <h5>Hatami</h5>
+                                <small>Article Post</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <div class="card-header">
+                        <img src="https://images.unsplash.com/photo-1604761550394-7690adbf0318?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Rubbish" />
+                    </div>
+                    <div class="card-body">
+                        <span class="tag tag-cyan">B3</span>
+                        <a
+                            href="https://dlhk.jogjaprov.go.id/mengenal-b3-dan-limbah-b3#:~:text=Beberapa%20jenis%20B3%20yang%20mudah,Hidroksida%2C%20termasuk%20juga%20gas%20Nitrogen.">
+                            <h4>
+                                Mengenal Sampah B3 dan Bahaya-Nya
+                            </h4>
+                        </a>
+                        <p>
+                            Mempelajari Sampah B3 dan Ancaman Terhadap Kesehatan yang Timbul dari Pencemaran Sampah
+                            Bahan Berbahaya dan Beracun...
+                        </p>
+                        <div class="user">
+                            <img src="https://i.ibb.co/cDq4c4w/hatami.png" alt="user" />
+                            <div class="user-info">
+                                <h5>Hatami</h5>
+                                <small>Article Post</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partner Section -->
+        <section class="partner">
+            <div class="text">
+                <h2>Partner</h2>
+            </div>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide">
+                        <img src="https://i.ibb.co/g6HmM8b/impact.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://i.ibb.co/cK9d6f2/msib.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://i.ibb.co/GRJHH3S/km.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://i.ibb.co/j4GVgGg/untag.png" height="100" width="100" alt="" />
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- Contact Section -->
+            <div class="contact" id="kontak">
+                <div class="contact-container">
+                    <form id="my-form" action="">
+                        <h2 class="txt-ctc">Hubungi Kami</h2>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Nama" required>
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" placeholder="Kota" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Alamat Email" required>
+                        <label for="zip-code">Zip Code</label>
+                        <input type="number" id="zip-code" name="zip-code" placeholder="Kode Pos" required>
+                        <label for="check" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah
+                            benar dan telah sesuai</label>
+                        <input type="checkbox" id="status" name="status" required>
+                        <button type="submit" id="submit-form">Submit</button>
+                        <div id="warning"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <span class="logo_name">Go Green</span>
+                </div>
+            </div>
+            <div class="link-boxes">
+                <ul class="box input-box">
+                    <li class="link_name">Ikuti Kami</li>
+                    <li><input type="text" placeholder="Masukkan email"></li>
+                    <li><input type="button" value="Subscribe"></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Informasi</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#kategori">Kategori</a></li>
+                    <li><a href="#artikel">Artikel</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2023 <a href="#">Go Green.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
